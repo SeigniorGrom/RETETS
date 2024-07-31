@@ -45,3 +45,4 @@ public class FirstHomeworks {
             System.out.println("List size: " + size);
         }
     }
+/*suchka obleji menia kak ledinec*/
