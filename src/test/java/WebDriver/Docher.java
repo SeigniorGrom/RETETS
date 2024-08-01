@@ -2,9 +2,8 @@ package WebDriver;
 
 public class Docher extends Father{
 
-    public void defenderStatus(){
-
+    /*webElements*/
+    public void allElements(){
+/* добавить все нужные елементы */
     }
-
-
 }

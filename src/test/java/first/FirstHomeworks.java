@@ -7,7 +7,7 @@ public class FirstHomeworks {
 
     public void juJa(){
 
- //Объявление и инициализация списка
+ /*Объявление и инициализация списка*/
             List<String> names = new ArrayList<>();
 
             /*Добавление элементов в список*/
@@ -35,7 +35,7 @@ public class FirstHomeworks {
             names.set(3, "VovaDlan");
             System.out.println("Updated list: " + names);
 
-//            // Удаление элемента по индексу или по значению
+//             /*Удаление элемента по индексу или по значению*/
 //            names.remove(2); // Удаление элемента по индексу
 //            names.remove("VovaDjan"); // Удаление элемента по значению
 //            System.out.println("List after removal: " + names);
