@@ -1,2 +1,18 @@
-package WebDriver;public class Father {
+package WebDriver;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+
+public class Father {
+
+    @BeforeTest
+    public void befTest(){
+
+    }
+
+    @AfterTest
+    public void afTest(){
+
+    }
+
 }

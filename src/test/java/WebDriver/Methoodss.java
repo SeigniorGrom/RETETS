@@ -1,2 +1,4 @@
-package WebDriver;public class Methoodss {
+package WebDriver;
+
+public class Methoodss {
 }
