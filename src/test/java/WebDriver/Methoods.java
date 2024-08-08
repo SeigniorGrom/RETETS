@@ -8,12 +8,17 @@ public class Methoods {
     /* Иницилизация драйвера для открытия браузера */
     WebDriver driver = new ChromeDriver();
 
+
     /* Тут все наши меттоды */
     public void openChrome(){
-        WebDriverManager.chromedriver().setup();
         /* вставляем ссылку на сайт */
-        System.out.println("Start Test");
-        driver.get(" https//test/ua ");
+        WebDriverManager.chromedriver().setup();
+        System.out.println("Open SotaStore");
+        driver.get("https://sota.store/ua/");
+        driver.quit();
+    }
+    public void openHer(){
+        System.out.println(1);
     }
     //Все методы подписывайте понятно, например: openWebsite, findeElementButtonIphone и тд...
 }

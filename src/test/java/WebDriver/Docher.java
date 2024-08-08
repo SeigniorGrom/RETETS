@@ -5,13 +5,18 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class Docher extends Father{
-    WebDriver driver = new ChromeDriver();
+    /* инцилизациия наших методов в этот тест*/
+    Methoods methoods = new Methoods();
+
 
     @Test
-    public void managerTest(){
+    public void managerTest() {
+        methoods.openChrome();
     }
-
-
+    @Test
+    public void stressTest() {
+        methoods.openHer();
+    }
 }
 
 /*
