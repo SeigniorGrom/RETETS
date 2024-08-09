@@ -1,15 +1,19 @@
 package WebDriver;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Elemnts {
+    public WebElement buttonIphone;
     WebDriver driver = new ChromeDriver();
 
     /*WebElements*/
-    public void main() {
+    public void buttonIphone() {WebElement element = driver.findElement(By.className("parent"));}
 
-    }
+
+    
 }
 /* Доп информация
 ----------------------------------------------------------------------
@@ -25,7 +29,7 @@ WebElement element = driver.findElement(By.id("elementId"));
 WebElement element = driver.findElement(By.name("elementName"));
 
 -Поиск по классу (className):
-WebElement element = driver.findElement(By.className("elementClass"));
+WebElement element = driver.findElement(By.className("elementClass")); 
 
 -Поиск по тегу (tagName):
 WebElement element = driver.findElement(By.tagName("tagName"));

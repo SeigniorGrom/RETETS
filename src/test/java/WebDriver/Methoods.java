@@ -15,9 +15,12 @@ public class Methoods {
         WebDriverManager.chromedriver().setup();
         System.out.println("Open SotaStore");
         driver.get("https://sota.store/ua/");
-        driver.quit();
+       // driver.quit();
     }
     public void openHer(){
+        Elemnts elemnts = new Elemnts();
+        elemnts.buttonIphone.click();
+
         System.out.println(1);
     }
     //Все методы подписывайте понятно, например: openWebsite, findeElementButtonIphone и тд...

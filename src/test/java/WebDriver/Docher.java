@@ -15,6 +15,7 @@ public class Docher extends Father{
     }
     @Test
     public void stressTest() {
+        methoods.openChrome();
         methoods.openHer();
     }
 }
