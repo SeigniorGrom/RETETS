@@ -8,7 +8,6 @@ public class Methoods {
     /* Иницилизация драйвера для открытия браузера */
     WebDriver driver = new ChromeDriver();
 
-
     /* Тут все наши меттоды */
     public void openChrome(){
         /* вставляем ссылку на сайт */
@@ -20,7 +19,6 @@ public class Methoods {
     public void openHer(){
         Elemnts elemnts = new Elemnts();
         elemnts.buttonIphone.click();
-
         System.out.println(1);
     }
     //Все методы подписывайте понятно, например: openWebsite, findeElementButtonIphone и тд...

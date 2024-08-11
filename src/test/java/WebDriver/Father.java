@@ -19,7 +19,6 @@ public class Father {
     public void befMet(){
         System.out.println("starts BefMet");
       // WebDriverManager.chromedriver().setup();
-
     }
 //    @AfterTest
 //    public void afTest(){
@@ -27,14 +26,11 @@ public class Father {
 //        driver.quit();
 //        /* добавить афтер */
 //    }
-
-
     @AfterTest
     public void afTest() {
         System.out.println("finish Test");
            // driver.quit();
     }
-
 }
 /*
  Добавьте все полезные функци которые будет идти перед и после теста, по приимеру который я вам прописал
