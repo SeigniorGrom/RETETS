@@ -6,7 +6,7 @@ public class Homework {
         System.out.print("Shabat"); // Принт без ln - остается на этой же строке //
         System.out.print("Shalom");
     }
-}
+
 
 // Java data types //
 // byte (1 byte - Stores whole numbers from -128 to 127)
@@ -20,8 +20,8 @@ public class Homework {
 // byte, short, int, long - Работают с целыми числами //
 // float, double - Работают с плавающей точкой (1.5; 2.5; 3.3 и тд) //
 
-public class chisla {
-    public static void wholeNumbers () {
+
+    public static void wholenumbers(String[] args) {
         byte oneByte = 1;
         short twoByte = 4;
         int muchByte = 55;
@@ -38,5 +38,4 @@ public class chisla {
         System.out.print(soMuchByte);
     }
 }
-
 
