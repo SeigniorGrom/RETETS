@@ -21,7 +21,7 @@ public class Homework {
 // float, double - Работают с плавающей точкой (1.5; 2.5; 3.3 и тд) //
 
 
-    public static void wholenumbers(String[] args) {
+    public static void wholenumbers() {
         byte oneByte = 1;
         short twoByte = 4;
         int muchByte = 55;
