@@ -32,10 +32,40 @@ public class Homework {
         char OneByteChar = 'A';
 
 
-        System.out.println(oneByte );
-        System.out.println(twoByte );
+        System.out.println(oneByte);
+        System.out.println(twoByte);
         System.out.print(muchByte);
         System.out.print(soMuchByte);
     }
+
+    public static void TrueFalse (){
+
+        int age = 25;
+
+        if (age < 20) {
+            System.out.println("Shop Closed");
+        } else if (20 == age) {
+            System.out.println("Check Passport");
+        } else (age > 20) {
+            System.out.println("Shop Opened");
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
