@@ -37,7 +37,7 @@ public class Homework {
         System.out.print(muchByte);
         System.out.print(soMuchByte);
     }
-
+/* это нужно писать в мейне */
     public static void TrueFalse (){
 
         int age = 25;
@@ -52,7 +52,8 @@ public class Homework {
     }
 
 // Всё альфа нашел как называется коммит и где посмотреть хахахаха //
-
+// не правильно ставишь комент
+    /* пример */
 
 
 
