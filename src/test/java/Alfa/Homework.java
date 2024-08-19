@@ -22,7 +22,7 @@ public class Homework {
 // byte, short, int, long - Работают с целыми числами //
 // float, double - Работают с плавающей точкой (1.5; 2.5; 3.3 и тд) //
 
-
+@Test
     public static void wholenumbers() {
         byte oneByte = 1;
         short twoByte = 4;
@@ -49,7 +49,7 @@ public class Homework {
             System.out.println("Shop Closed");
         } else if (20 == age) {
             System.out.println("Check Passport");
-        } else (age > 20) {
+        } else (age > 25) {
             System.out.println("Shop Opened");
         }
     }
@@ -57,8 +57,11 @@ public class Homework {
 // Всё альфа нашел как называется коммит и где посмотреть хахахаха //
 // не правильно ставишь комент
     /* пример */
-    //fdsfsdf
+// ыплраплвоатвдапоп
+    /* gdfgdfg
 
+
+     */
 
 
 
