@@ -43,13 +43,13 @@ public class Homework {
     @Test
     public static void TrueFalse (){
 
-        int age = 18;
+        int age = 25;
 
         if (age < 20) {
             System.out.println("Shop Closed");
         } else if (20 == age) {
             System.out.println("Check Passport");
-        } else (age > 20) {
+        } else if (age > 20) {
             System.out.println("Shop Opened");
         }
     }
