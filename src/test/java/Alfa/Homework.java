@@ -43,7 +43,7 @@ public class Homework {
     @Test
     public static void TrueFalse (){
 
-        int age = 25;
+        int age = 18;
 
         if (age < 20) {
             System.out.println("Shop Closed");
