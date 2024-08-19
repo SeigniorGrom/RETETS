@@ -1,5 +1,7 @@
 package Alfa;
 
+import org.testng.annotations.Test;
+
 public class Homework {
     public static void main(String[] args) {
         System.out.println("Shabat Shalom"); //ln после принта делает переходит на другую строку //
@@ -38,6 +40,7 @@ public class Homework {
         System.out.print(soMuchByte);
     }
 /* это нужно писать в мейне */
+    @Test
     public static void TrueFalse (){
 
         int age = 25;
