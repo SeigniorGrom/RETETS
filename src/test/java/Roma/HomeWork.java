@@ -2,11 +2,8 @@ package Roma;
 
 public class HomeWork {
     public static void main(String[] args) {
-        System.out.println("Q"); //лн выводит сообщение на экран, а затем переводит курсор на новую строку
-        System.out.println("Privet");
+        System.out.println("Q"); //вывод в новую строку
+        System.out.print("Privet"); //без вывода в новую строку - слитно
     }
 }
-
-
 //YaMegaKrutoiChel
-//david lox
