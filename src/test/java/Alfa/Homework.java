@@ -49,7 +49,7 @@ public class Homework {
             System.out.println("Shop Closed");
         } else if (20 == age) {
             System.out.println("Check Passport");
-        } else (age > 20) {
+        } else if (age > 20) {
             System.out.println("Shop Opened");
         }
     }
