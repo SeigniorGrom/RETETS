@@ -45,6 +45,8 @@ public class Homework {
 
         int age = 25;
 
+        1
+
         if (age < 20) {
             System.out.println("Shop Closed");
         } else if (20 == age) {
